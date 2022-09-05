@@ -14,8 +14,8 @@ final class AuthService {
     
     
     struct Constants {
-        static let clientID = "ab9dd9fee52e41de9d209e3f6ccde8c1"
-        static let clientSecret = "78822d4634cf47edb5db9598ea77e52f"
+        static let clientID = ProcessInfo.processInfo.environment["CLIENT_ID"]!
+        static let clientSecret = ProcessInfo.processInfo.environment["CLIENT_SECRET"]!
         static let tokenAPIURL = "https://accounts.spotify.com/api/token"
     }
     
