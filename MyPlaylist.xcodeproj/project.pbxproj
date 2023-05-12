@@ -54,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		663ABCBE28C478D100BC13CD /* SongsTableViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewFooter.swift; sourceTree = "<group>"; };
+		66651D942A0DF619002AD44A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		668FF21C28C3733800F58D53 /* MyPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668FF21F28C3733800F58D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		668FF22128C3733800F58D53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 		668FF21328C3733800F58D53 = {
 			isa = PBXGroup;
 			children = (
+				66651D942A0DF619002AD44A /* README.md */,
 				668FF21E28C3733800F58D53 /* MyPlaylist */,
 				668FF23528C3733D00F58D53 /* MyPlaylistTests */,
 				668FF23F28C3733D00F58D53 /* MyPlaylistUITests */,

@@ -186,7 +186,7 @@ final class AuthService {
                                            forKey: "refresh_token")
         }
  
-        UserDefaults.standard.setValue(Date().addingTimeInterval(TimeInterval(result.expires_in)),                                forKey: "expirationDate")
+        UserDefaults.standard.setValue(Date().addingTimeInterval(TimeInterval(result.expires_in)), forKey: "expirationDate")
     }
     
     public func signOutAction(completion: (Bool) -> Void) {

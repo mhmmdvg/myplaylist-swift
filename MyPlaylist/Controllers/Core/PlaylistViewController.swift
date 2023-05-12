@@ -29,7 +29,7 @@ class PlaylistViewController: UIViewController {
         
     }
     
-    private  func fetchSong() {
+    private func fetchSong() {
         APICaller.shared.getPlaylistUser { [weak self] result in
             DispatchQueue.main.async {
                 switch result {

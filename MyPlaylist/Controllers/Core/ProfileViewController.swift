@@ -152,6 +152,7 @@ class ProfileViewController: UIViewController {
                 DispatchQueue.main.async {
                     let signInVC = UINavigationController(rootViewController: SignInViewController())
                     signInVC.modalPresentationStyle = .fullScreen
+                    
                     self?.present(signInVC, animated: true, completion: {
                         self?.navigationController?.popToRootViewController(animated: true)
                     })
